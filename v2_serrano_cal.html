@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>Serrano Calculator</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="calc.css" rel="stylesheet" />
+
+        <!-- Your styles should be called here -->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+        <h1>My first calculator</h1> By Carlos Serrano
+        <p>
+            <form id="one">
+                First Number <input type="text" id="x" /> Second Number <input type="text" id="y" />
+                <input id="button" type="button" value="Calculate" />
+
+                <br /><br />
+
+                <div id="textout" style="display:none">
+
+                    When I add your first number <span class="x"></span> to your second number <span class="y"></span>, I get <span id="zAdd"></span>
+
+                    <br /> <br />When I subtract your first number <span class="x"></span> from your second number <span class="y"></span> I get <span id="zSub"></span><br />
+
+                    <br /> When I multiply your first number <span class="x"></span> and your second number <span class="y"></span>, I get <span id="zMult"></span><br />
+
+                    <br /> When I divide your first number <span class="x"></span> by your second number <span class="y"></span>, I get <span id="zDiv"></span>
+
+                </div>
+
+            </form>
+        </p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="v2_serrano_cal.js"></script>
+
+    </body>
+
+</html>
